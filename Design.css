@@ -1,0 +1,3120 @@
+
+@font-face {
+  font-family: FUNGIS;
+  src: url(Fonts/FUNGIS\ Regular.otf) format(otf);
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu,
+nav, output, ruby, section, summary, time,
+mark, audio, video { 
+margin: 0;
+padding: 0; 
+border: 0; 
+font-size: 100%;
+font: inherit; 
+vertical-align: baseline;
+  }
+                     
+/* HTML5 display-role reset for older browsers */ 
+article, aside, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section {
+display: block; }
+body {  line-height: 1; }
+ol, ul {  list-style: none; }
+blockquote, q {  quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {  content: '';  content: none; } 
+ table {  border-collapse: collapse;  border-spacing: 0; }
+
+
+/* Interior Design Website Wireframe */
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/ 
+
+/* Interior Design Website Wireframe */
+
+
+body
+{
+position: relative;
+width: 1440px;
+height: 4766px;
+margin: auto;
+min-width: none;
+max-width: 1440px;
+
+/* BG/1 */
+
+background: #FEFEFF;
+}
+
+a
+{
+  text-decoration: none;
+
+}
+
+/* Header */
+
+.header
+{
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 0px;
+}
+
+/* Hero Header */
+
+
+.heroHeader .background
+{
+position: absolute;
+width: 1440px;
+height: 1319px;
+left: 0px;
+top: 0px;
+
+background: url('images/Rectangle.svg');
+}
+
+
+.heroHeader
+{
+position: absolute;
+width: 1440px;
+height: 799px;
+padding: 0px 0px;
+
+/* BG/4 */
+background: #F8FAFF;
+}
+
+/* LOGO */
+
+.logo
+{
+position: absolute;
+width: 70px;
+height: 32px;
+left: 130px;
+top: 24px;
+
+font-family: 'FUNGIS';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* Grays/900 */
+
+color: #27282A;
+}
+
+
+/* Frame 1917 */
+
+.home .Hline
+{
+box-sizing: border-box;
+position: absolute;
+width: 51px;
+height: 6px;
+left: -3px;
+top: 25px;
+
+background: #315bb6;
+border: 1px solid #FEFEFF;
+border-radius: 3px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+}
+
+
+/* Get in touch */
+
+.git
+{
+width: 93px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 160% */
+
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+/* Frame 1886 */
+
+
+/* Auto layout */
+
+.frame1886
+{
+box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 125px;
+height: 42px;
+
+background: #592502;
+border: 1px solid #FEFEFF;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+}
+
+.home
+{
+ /* Home */
+
+
+width: 51px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+padding-right: 16px;
+/* identical to box height, or 142% */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0; 
+}
+
+.about
+{
+  /* About */
+
+
+width: 52px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+padding-right: 16px;
+/* identical to box height, or 142% */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.gallery
+{
+/* Gallery */
+
+
+width: 60px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+padding-right: 16px;
+/* identical to box height, or 142% */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.team
+{
+  /* Our Team */
+
+
+width: 83px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+padding-right: 16px;
+/* identical to box height, or 142% */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.frame1888
+{
+  /* Frame 1888 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 342px;
+height: 26px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+}
+
+.frame1913
+{
+  /* Frame 1913 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 45px;
+isolation: isolate;
+
+position: absolute;
+width: 570px;
+height: 42px;
+left: 740px;
+top: 19px;
+}
+
+.heroPosition
+{
+  position: absolute;
+width: 811px;
+height: 715px;
+left: 860px;
+top: 134px;
+
+border-radius: 1px;
+
+}
+.heroPosition img
+{
+  border-radius: 5px;
+}
+
+
+
+
+.HeroCta
+{
+/* Hero CTA */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 625px;
+height: 386px;
+left: 130px;
+top: 263px;
+}
+
+
+
+.frame1893
+{
+  /* Frame 1893 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 625px;
+height: 264px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame1920
+{
+  /* Frame 1920 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 559px;
+height: 176px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.TYS
+{
+  /* TRANSFORM YOUR SPACE */
+
+
+width: 559px;
+height: 176px;
+
+font-family: FUNGIS;
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 88px;
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame1921
+{
+  /* Frame 1921 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 625px;
+height: 64px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame19212
+{
+    /* Frame 1921 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 625px;
+height: 752px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.jingle
+{
+  /* Need to breath life into your space, Need to go from normal to extra ordinary, we are here to help. */
+
+
+width: 625px;
+height: 64px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.git2
+{
+  /* Get in touch */
+
+
+width: 139px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 26px;
+/* identical to box height, or 107% */
+
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.services
+{
+  /* Service we offer */
+
+
+position: absolute;
+width: 1440px;
+height: 1375px;
+left: 0px;
+top: 799px;
+
+/* BG/1 */
+
+background: #FEFEFF;
+}
+
+
+.swo
+{
+  /* Services we offer */
+
+
+position: absolute;
+width: 378px;
+height: 53px;
+left: 531px;
+top: 94px;
+
+font-family: 'FUNGIS';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 53px;
+/* identical to box height */
+
+
+color: #27282A;
+}
+
+
+.frame1922
+{
+  /* Frame 1922 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 1182px;
+height: 1004px;
+left: 130px;
+top: 247px;
+}
+
+.frame1908
+{
+  /* Frame 1908 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1182px;
+height: 478px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame1898
+{
+  /* Frame 1898 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 378px;
+height: 473px;
+
+filter: drop-shadow(2px 2px 24px rgba(143, 139, 139, 0.15));
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.frame1895
+{
+  /* Frame 1895 */
+
+
+width: 377px;
+height: 384px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame1907
+{
+  /* Frame 1907 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 378px;
+height: 89px;
+
+background: #FEFEFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.id
+{
+  width: 212px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.frame1899
+{
+  /* Frame 1899 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 378px;
+height: 478px;
+
+filter: drop-shadow(2px 2px 24px rgba(143, 139, 139, 0.15));
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame1896
+{
+  /* Frame 1896 */
+
+
+width: 377px;
+height: 389px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.fd
+{
+  width: 199px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+.frame1900
+{
+  /* Frame 1900 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 378px;
+height: 473px;
+
+filter: drop-shadow(2px 2px 24px rgba(143, 139, 139, 0.15));
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.frame1897
+{
+  /* Frame 1896 */
+
+
+width: 377px;
+height: 384px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.lsd
+{
+  width: 341px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.frame1909
+{
+  /* Frame 1909 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1182px;
+height: 478px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.ap
+{
+  /* Art Paint */
+
+
+width: 99px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+
+.works
+{
+  /* Works */
+
+
+position: absolute;
+width: 1440px;
+height: 1101px;
+left: 0px;
+top: 2174px;
+
+background: #27282A;
+}
+
+.soow
+{
+  /* Some of our works */
+
+
+position: absolute;
+width: 411px;
+height: 53px;
+left: 130px;
+top: 100px;
+
+font-family: 'FUNGIS';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 53px;
+/* identical to box height */
+
+
+/* White/Default */
+
+color: #FDFDFD;
+}
+
+.wline
+{
+  position: absolute;
+width: 849px;
+height: 0px;
+left: 632px;
+top: 127px;
+
+border: 1px solid #FEFEFF;
+}
+
+.frame1904
+{
+  /* Frame 1904 */
+
+
+position: absolute;
+width: 377px;
+height: 464px;
+left: 130px;
+top: 276px;
+
+background: url(.jpg);
+}
+
+.frame1905
+{
+/* Frame 1905 */
+
+
+position: absolute;
+width: 378px;
+height: 464px;
+left: 531px;
+top: 396px;
+
+background: url();
+}
+
+.frame1906
+{
+/* Frame 1906 */
+
+
+position: absolute;
+width: 378px;
+height: 464px;
+left: 933px;
+top: 276px;
+
+background: url(.jpg);
+}
+
+.frame2886
+{
+  /* Frame 1886 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 16px;
+gap: 8px;
+
+position: absolute;
+width: 378px;
+height: 74px;
+left: 531px;
+top: 944px;
+
+border: 1px solid #FEFEFF;
+border-radius: 5px;
+}
+
+.vmig
+{
+  /* View more in gallery */
+
+
+width: 230px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 26px;
+/* identical to box height, or 107% */
+
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.satisfiedclients
+{
+  /* Satisfied clients */
+
+
+position: absolute;
+width: 1440px;
+height: 1008px;
+left: 0px;
+top: 3275px;
+
+background: #F8FAFF;
+}
+
+.osc
+{
+  /* Our Satisfied Clients */
+
+
+position: absolute;
+width: 456px;
+height: 53px;
+left: 492px;
+top: 142px;
+
+font-family: 'FUNGIS';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 53px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+}
+
+.frame1910
+{
+  /* Frame 1910 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 88px;
+
+position: absolute;
+width: 1228px;
+height: 564px;
+left: 106px;
+top: 280px;
+
+}
+
+.rightsection
+{
+  /* Right Section */
+
+
+width: 570px;
+height: 564px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.imgbox
+{
+  /* Quote Mark */
+
+
+position: absolute;
+width: 80px;
+height: 68px;
+left: 530px;
+top: 108px;
+
+opacity: 0.3;
+transform: rotate(-180deg);
+
+}
+
+.imgbox img
+{
+  /* “ */
+
+
+position: absolute;
+left: 100%;
+right: -99.56%;
+top: 100%;
+bottom: -100%;
+
+/* Grays/700 */
+
+background: #81868B;
+transform: rotate(-180deg);
+}
+
+.clientdetails
+{
+  /* _Client details / 2 - Dark Text */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 255px;
+height: 56px;
+left: 40px;
+top: 132px;
+
+}
+
+.clientdetails img
+{
+  /* Picture */
+
+
+width: 56px;
+height: 56px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.personaldetails
+{
+  /* Person Details */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 183px;
+height: 28px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.name
+{
+  /* Name */
+
+
+width: 183px;
+height: 28px;
+
+/* Subtitle / Subtitle 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.feedback
+{
+  /* Feedback */
+
+
+position: absolute;
+width: 490px;
+height: 192px;
+left: 40px;
+top: 212px;
+
+/* Lead / Lead 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+}
+
+.rightsection1
+{
+  /* Right Section */
+
+
+width: 570px;
+height: 564px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.imgbox1
+{
+  /* Quote Mark */
+
+
+position: absolute;
+width: 80px;
+height: 68px;
+left: 1188px;
+top: 108px;
+
+opacity: 0.3;
+transform: rotate(-180deg);
+
+}
+
+.quote
+{
+  /* “ */
+
+
+position: absolute;
+left: 100%;
+right: -99.56%;
+top: 100%;
+bottom: -100%;
+
+/* Grays/700 */
+
+background: #81868B;
+transform: rotate(-180deg);
+}
+
+.clientdetails1
+{
+  /* _Client details / 2 - Dark Text */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 255px;
+height: 56px;
+left: 698px;
+top: 132px;
+
+}
+
+.clientdetails1 img
+{
+  /* Picture */
+
+
+width: 56px;
+height: 56px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.personaldetails1
+{
+  /* Person Details */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 183px;
+height: 28px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.name
+{
+  /* Name */
+
+
+width: 183px;
+height: 28px;
+
+/* Subtitle / Subtitle 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.feedback1
+{
+  /* Feedback */
+
+
+position: absolute;
+width: 490px;
+height: 192px;
+left: 698px;
+top: 212px;
+
+/* Lead / Lead 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+}
+
+
+
+
+
+.extracta
+{
+  /* Extra CTA */
+
+
+position: absolute;
+width: 1440px;
+height: 315px;
+left: 0px;
+top: 4283px;
+
+background: linear-gradient(0deg, rgba(39, 40, 42, 0.8), rgba(39, 40, 42, 0.8)), url(images/Extracta.svg);
+}
+
+.frame1912
+{
+  /* Frame 1912 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 363px;
+
+position: absolute;
+width: 1180px;
+height: 114px;
+left: 130px;
+top: 101px;
+}
+
+
+.nttys
+{
+  /* Need to transform your space */
+
+
+width: 404px;
+height: 114px;
+
+font-family: 'FUNGIS';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 57px;
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame1886
+{
+  /* Frame 1886 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 16px;
+gap: 8px;
+
+width: 236px;
+height: 74px;
+
+background: #31298A;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.git3
+{
+  /* Get in touch */
+
+
+width: 139px;
+height: 26px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 26px;
+/* identical to box height, or 107% */
+
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.footer
+{
+  /* Footer */
+
+
+position: absolute;
+height: 168px;
+left: 0%;
+right: 0%;
+bottom: 0px;
+
+background: #27282A;
+}
+
+.frame1915
+{
+  /* Frame 1915 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 141px;
+height: 87px;
+left: 130px;
+top: 41px;
+}
+
+.logo1
+{
+  /* LOGO */
+
+
+width: 70px;
+height: 31px;
+
+font-family: 'FUNGIS';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.copyright
+{
+  /* © 2022 Karizmakraft */
+
+
+width: 141px;
+height: 24px;
+
+/* Body / Body 2 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame1916
+{
+  /* Frame 1916 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 240px;
+height: 26px;
+left: 600px;
+top: 71px;
+
+}
+
+.about1
+{
+  /* About */
+
+
+width: 46px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.gallery1
+{
+  /* Gallery */
+
+
+width: 55px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.team1
+{
+  /* Our Team */
+
+
+width: 75px;
+height: 26px;
+
+/* Body / Body 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* White/Default */
+
+color: #FDFDFD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.frame1914
+{
+  /* Frame 1914 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 192px;
+height: 48px;
+left: 1118px;
+top: 60px;
+
+}
+
+.twitter
+{
+  /* twitter-6 */
+
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.facebook
+{
+  /* facebook-2020-2-1 */
+
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.insta
+{
+  /* instagram-5 1 */
+
+
+width: 48px;
+height: 48px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------ABOUT----------------------------------------------*/
+
+
+
+.Aline
+{
+  box-sizing: border-box;
+position: absolute;
+width: 51px;
+height: 6px;
+left: 61px;
+top: 25px;
+
+background: #315bb6;
+border: 1px solid #FEFEFF;
+border-radius: 3px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+}
+
+
+
+.aboutp
+{
+  /* Interior Design Website Wireframe */
+
+
+position: relative;
+width: 1440px;
+height: 1631px;
+
+/* BG/1 */
+
+background: #FEFEFF;
+}
+
+.Abackground
+{
+position: absolute;
+width: 1440px;
+height: 1319px;
+left: 0px;
+top: 0px;
+
+background: url('images/Rectangle.svg');
+}
+
+.frame1889
+{
+  /* Frame 1889 */
+
+
+position: absolute;
+width: 1440px;
+height: 1319px;
+left: 0px;
+top: 0px;
+
+/* BG/4 */
+
+background: #F8FAFF;
+}
+
+.frame1894
+{
+  /* Frame 1894 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 64px;
+
+position: absolute;
+width: 625px;
+height: 890px;
+left: 130px;
+top: 263px;
+
+}
+
+.Aframe1893
+{
+  /* Frame 1893 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 625px;
+height: 752px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame1893
+{
+  /* Frame 1893 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 625px;
+height: 752px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.tabout
+{
+  /* ABOUT */
+
+
+width: 559px;
+height: 88px;
+
+font-family: 'FUNGIS';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 88px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.tabout2
+{
+  width: 625px;
+height: 640px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Aframe18862
+{
+  /* Frame 1886 */
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 16px;
+gap: 8px;
+
+width: 236px;
+height: 74px;
+
+background: #6459dfdc;
+border: 1px solid #FEFEFF;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================================================gallery===============================================*/
+
+
+.Gline
+{
+  box-sizing: border-box;
+position: absolute;
+width: 57px;
+height: 6px;
+left: 129px;
+top: 25px;
+
+background: #315bb6;
+border: 1px solid #FEFEFF;
+border-radius: 3px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+}
+
+
+.galleryp
+{
+  /* Interior Design Website Wireframe */
+
+
+position: relative;
+width: 1440px;
+height: 1491px;
+
+/* BG/1 */
+
+background: #FEFEFF;
+}
+
+.frame1889g
+{
+  /* Frame 1889 */
+
+
+position: absolute;
+width: 1440px;
+height: 1099px;
+left: 0px;
+top: 0px;
+
+/* BG/4 */
+
+background: #F8FAFF;
+}
+
+.frame1894g
+{
+  /* Frame 1894 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 559px;
+height: 88px;
+left: 130px;
+top: 263px;
+
+}
+
+.tgallery
+{
+  /* GALLERY */
+
+
+width: 559px;
+height: 88px;
+
+font-family: 'FUNGIS';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 88px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame1918
+{
+  /* Frame 1918 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 1440px;
+height: 489px;
+left: 0px;
+top: 478px;
+overflow-x: scroll;
+}
+
+.frame18882
+{
+  /* Frame 1888 */
+
+
+width: 252px;
+height: 301px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.frame18952
+{
+  /* Frame 1895 */
+
+
+width: 309px;
+height: 489px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame18962
+{
+  /* Frame 1896 */
+
+
+width: 252px;
+height: 301px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.frame18972
+{
+  /* Frame 1897 */
+
+
+width: 309px;
+height: 489px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.frame18982
+{
+  /* Frame 1898 */
+
+
+width: 252px;
+height: 301px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+.frame18992
+{
+  /* Frame 1899 */
+
+
+width: 309px;
+height: 489px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+
+.frame19002
+{
+  /* Frame 1900 */
+
+
+width: 252px;
+height: 301px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 6;
+flex-grow: 0;
+}
+
+
+
+
+
+
+/*=====================================================OUR TEAM=============================*/
+
+.Tline
+{
+  box-sizing: border-box;
+position: absolute;
+width: 73px;
+height: 6px;
+left: 205px;
+top: 25px;
+
+background: #315bb6;
+border: 1px solid #FEFEFF;
+border-radius: 3px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+}
+
+.teamp
+{
+  /* Interior Design Website Wireframe */
+
+
+position: relative;
+width: 1440px;
+height: 1857px;
+
+/* BG/1 */
+
+background: #FEFEFF;
+}
+
+.frame1894t
+{
+  /* Frame 1889 */
+
+
+position: absolute;
+width: 1440px;
+height: 1566px;
+left: 0px;
+top: 0px;
+
+/* BG/4 */
+
+background: #F8FAFF;
+}
+
+.tteam
+{
+  /* OUR TEAM */
+
+
+width: 559px;
+height: 88px;
+
+font-family: 'FUNGIS';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 88px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame1908t
+{
+  /* Frame 1908 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 1182px;
+height: 491px;
+left: 112px;
+top: 446px;
+}
+
+
+.frame1898t
+{
+  /* Frame 1898 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 378px;
+height: 491px;
+
+filter: drop-shadow(2px 2px 24px rgba(143, 139, 139, 0.15));
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame1895t
+{
+  /* Frame 1895 */
+
+
+width: 377px;
+height: 384px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame1907t
+{
+  /* Frame 1907 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 378px;
+height: 107px;
+
+background: #FEFEFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+.aj
+{
+  /* Adam James */
+
+
+width: 147px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.ceo
+{
+  /* CEO */
+
+
+width: 90px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Grays/800 */
+
+color: #414346;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame1899t
+{
+  /* Frame 1899 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 378px;
+height: 491px;
+
+filter: drop-shadow(2px 2px 24px rgba(143, 139, 139, 0.15));
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame1896t
+{
+  /* Frame 1896 */
+
+
+width: 377px;
+height: 384px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.vc
+{
+  /* Victor Chek */
+
+
+width: 133px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.cto
+{
+  /* Lead Designer */
+
+
+width: 110px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Grays/800 */
+
+color: #414346;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame1900t
+{
+  /* Frame 1900 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 378px;
+height: 491px;
+
+filter: drop-shadow(2px 2px 24px rgba(143, 139, 139, 0.15));
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame1897t
+{
+  /* Frame 1897 */
+
+
+width: 377px;
+height: 384px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.irg
+{
+  /* Irenne Gift */
+
+
+width: 120px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frd
+{
+  /* Furniture Designer */
+
+
+width: 140px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Grays/800 */
+
+color: #414346;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+
+
+
+
+.frame1909t
+{
+  /* Frame 1909 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 1182px;
+height: 473px;
+left: 112px;
+top: 965px;
+}
+
+.frame18982t
+{
+  /* Frame 1898 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 378px;
+height: 473px;
+
+filter: drop-shadow(2px 2px 24px rgba(143, 139, 139, 0.15));
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame19082t
+{
+  /* Frame 1908 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 378px;
+height: 89px;
+
+background: #FEFEFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+.ww
+{
+  /* Wade Warren */
+
+
+width: 152px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.ds
+{
+  /* Design Strategist */
+
+
+width: 131px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Grays/800 */
+
+color: #414346;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.fm
+{
+  /* Floyd Miles */
+
+
+width: 128px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.lx
+{
+  /* Lighting Expert */
+
+
+width: 115px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Grays/800 */
+
+color: #414346;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.ab
+{
+  /* Annette Black */
+
+
+width: 158px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* Grays/900 */
+
+color: #27282A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.vad
+{
+  /* Visual Art Director */
+
+
+width: 138px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Grays/800 */
+
+color: #414346;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
