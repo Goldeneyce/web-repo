@@ -1,0 +1,14 @@
+body
+{
+position: relative;
+width: 100%;
+height: 4766px;
+margin: auto;
+min-width: none;
+max-width: 1440px;
+margin:0px;
+
+/* BG/1 */
+
+background: #FEFEFF;
+}
