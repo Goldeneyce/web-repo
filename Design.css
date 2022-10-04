@@ -64,16 +64,13 @@ table {
           box-sizing: border-box;
 }
 
-.container {
-
+.container 
+{
   margin: 0 auto;
-
   padding-left: 30px;
-
   padding-right: 30px;
-
-  width: 960px;
-
+  padding-top: 20px;
+  width: 100%;
 }
 
 
@@ -88,22 +85,37 @@ Buttons
 */
 
 .gitbtn {
-
   border-radius: 5px;
-
   display: inline-block;
-
   margin: 0;
-
 }
 
 .gitbtn-alt {
-
   border: 1px solid #dfe2e5;
-
   padding: 10px 30px;
-
 }
+
+.logo
+{
+  float: left;
+  margin: 0 1.5%;
+  width: %;
+}
+
+.navtop
+{
+  float: right;
+  margin: 0 1.5%;
+  width: %;
+}
+
+
+
+
+
+
+
+
 
 
 
