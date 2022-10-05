@@ -90,7 +90,8 @@ Buttons
   margin: 0;
 }
 
-.gitbtn-alt {
+.gitbtn-alt 
+{
   border: 1px solid #dfe2e5;
   padding: 10px 30px;
 }
@@ -108,6 +109,26 @@ Buttons
   margin: 0 1.5%;
   width: %;
 }
+/*---------------------------------------------------clearing floats--------------------------------------------------*/
+.header:before
+.header::after
+{
+  content: "";
+  display: table;
+}
+.header::after
+{
+  clear: both;
+}
+.header 
+{
+  clear: both;
+  *zoom: 1;
+}
+
+
+
+
 
 
 
