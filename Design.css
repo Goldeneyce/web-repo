@@ -100,14 +100,14 @@ Buttons
 {
   float: left;
   margin: 0 1.5%;
-  width: %;
+
 }
 
 .navtop
 {
   float: right;
   margin: 0 1.5%;
-  width: %;
+  
 }
 /*---------------------------------------------------clearing floats--------------------------------------------------*/
 .header:before
