@@ -109,29 +109,55 @@ Buttons
   margin: 0 1.5%;
   
 }
+
+
 /*---------------------------------------------------clearing floats--------------------------------------------------*/
-.header:before
-.header::after
+.clear:before
+.clear::after
 {
   content: "";
   display: table;
 }
-.header::after
+.clear:after
 {
   clear: both;
 }
-.header 
+.clear 
 {
   clear: both;
   *zoom: 1;
 }
 
+/*---------------------------------------------------footer--------------------------------------------------*/
 
+.copyright
+{
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 30%;
+}
 
+.flinks
+{
+  text-align: center;
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 30%;
+}
 
+.social
+{
+  text-align: right;
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 30%;
+}
 
-
-
+footer
+{
+  margin: 0;
+  padding-right: 40px;
+}
 
 
 
