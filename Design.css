@@ -153,21 +153,52 @@ Buttons
   width: 30%;
 }
 
-footer
+
+/*---------------------------------------------services we offer grid--------------------------------------------------*/
+
+/*--------.grid
 {
-  margin: 0;
-  padding-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px 40px;
+  align-self: center;
+
+
+  align-items: center;
+  padding: 0px;
 }
 
+.grid img
+{
+  width: 377px;
+  height: 389px;
+}
+-------*/
+.row
+{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
 
+width: 100%;
+height: 478px;
 
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+}
 
+.row1
+{
+  order: 0;
+}
 
-
-
-
-
-
+.row2
+{
+order: 1;
+}
 
 
 
