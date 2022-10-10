@@ -133,23 +133,65 @@ Buttons
 }
 .width
 {
-  width: 1024px;
+  width: 1220px;
 }
 
 .frame11h
 {
+  display: inline-block;
   float: left;
-  width: 625px;
+  width: 575px;
   
 }
 .frame12h
 {
+  display: inline-block;
   float: right;
-  
-height: 710px;
-
+  width: 620;
+height: 650px;
 
 }
+.frame12h img
+{
+  width: 590px;
+  height: 650px;
+}
+
+.tys
+{
+
+width: 559px;
+height: 176px;
+
+font-family: FUNGIS;
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 88px;
+
+color: #27282A;
+margin: 70px 0 0px 0;
+}
+
+.peddle
+{
+  width: 625px;
+height: 64px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+margin: 10px 0 0px 0;
+
+}
+
+.frame01
+{
+  margin: 70px 0 5px 0;
+}
+
 
 /*---------------------------------------------------footer--------------------------------------------------*/
 
@@ -294,7 +336,7 @@ flex-grow: 0;
 .grid
 {
   margin: 0 auto;
-  width: 1200px;
+  width: 1220px;
 }
 
 .container
