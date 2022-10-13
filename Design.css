@@ -47,7 +47,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+a{
+  text-decoration: none;
+}
+img {
+  border-radius: 5px;
+}
 
 
 /*
@@ -141,6 +146,7 @@ Buttons
   display: inline-block;
   float: left;
   width: 575px;
+  margin: 0 auto;
   
 }
 .frame12h
@@ -151,9 +157,9 @@ Buttons
 height: 650px;
 
 }
-.frame12h img
+.gridcol-1-3 img
 {
-  width: 590px;
+  width: 550px;
   height: 650px;
 }
 
@@ -307,14 +313,25 @@ flex-grow: 0;
   height: 389px;
 }
 
+.row
+{
+  align-items: center;
+  padding: 0px;
+  margin-top: 30px;
+  gap: 24px;
+  top: 247px;
+}
+
+
 .gridcol-1-3
 {
   width: 33.33%;
+  
 }
 
 .gridcol-2-3
 {
-  width: 66.66%;
+  width: 58.66%;
 }
 
 .gridcol-1-3, 
@@ -328,21 +345,28 @@ flex-grow: 0;
 .gridcol-1-3,
 .gridcol-2-3
 {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col
+{
+  vertical-align: top;
+  filter: drop-shadow(2px 2px 24px rgba(143, 139, 139, 0.15));
 }
 
 .container,
 .grid
 {
   margin: 0 auto;
-  width: 1220px;
+  width: 1200px;
 }
 
 .container
 {
   padding-left: 5px;
   padding-right: 5px;
+  padding-top: 10px;
 }
 
 
@@ -388,10 +412,10 @@ color: #000000;
 
 .swo
 {
+  display: block;
   text-align: center;
-  padding: 13px 40px 20px 40px;
-  height: 53px;
-  margin-top: 5px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 
 font-family: 'FUNGIS';
 font-style: normal;
