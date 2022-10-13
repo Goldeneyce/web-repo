@@ -84,12 +84,26 @@ Buttons
   border-radius: 5px;
   display: inline-block;
   margin: 0;
+
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
 }
 
 .gitbtn-alt 
 {
-  border: 1px solid #dfe2e5;
-  padding: 10px 30px;
+  text-align: center;
+  color: #FDFDFD;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 8px;
+  
+  width: 236px;
+  height: 74px;
+  
+  background: #6459dfdc;
+  border: 1px solid #FEFEFF;
+  border-radius: 5px;
 }
 
 .logo
@@ -141,7 +155,7 @@ Buttons
   width: 1220px;
 }
 
-.frame11h
+/*--.frame11h
 {
   display: inline-block;
   float: left;
@@ -156,7 +170,7 @@ Buttons
   width: 620;
 height: 650px;
 
-}
+} ---*/
 .gridcol-1-3 img
 {
   width: 550px;
@@ -195,7 +209,8 @@ margin: 10px 0 0px 0;
 
 .frame01
 {
-  margin: 70px 0 5px 0;
+  margin: 70px 0 5px 140px;
+  
 }
 
 
