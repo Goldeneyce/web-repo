@@ -455,16 +455,16 @@ color: #27282A;
 {
   background: #27282A;
   margin-top: 100px;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 20px;
 }
 
 .soow
 {
+  float: left;
   width: 411px;
   height: 53px;
-  margin-left: 130px;
-  top: 100px;
+  margin-left: 100px;
 
   font-family: 'FUNGIS';
   font-style: normal;
@@ -480,6 +480,7 @@ color: #27282A;
   float: right;
   width: 800px;
   height: 0px;
+  margin-top: 41px;
 
   border: 1px solid #FEFEFF;
 }
@@ -492,12 +493,46 @@ color: #27282A;
 
 .centre
 {
-  padding: auto;
+  margin-top: 100px;
 }
 
+.col2
+{
+  padding-top: 120px;
+}
 
+.frame2886
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 8px;
 
+  width: 378px;
+  height: 74px;
+  left: 531px;
+  top: 944px;
 
+  border: 1px solid #FEFEFF;
+  border-radius: 5px;
+}
+
+.vmig
+{
+  width: 230px;
+  height: 26px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  
+  color: #FDFDFD;
+  
+}
 
 
 
