@@ -160,6 +160,12 @@ Buttons
 {
   background: url('images/Rectangle.svg');
 }
+
+.landing
+{
+  padding-left: 10px;
+}
+
 .width
 {
   width: 1220px;
