@@ -498,6 +498,11 @@ color: #27282A;
 .centre
 {
   margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-content: center;
+
 }
 
 .col2
