@@ -393,8 +393,10 @@ flex-grow: 0;
 .container,
 .grid
 {
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
-  width: 1220px;
+  /*----width: 1220px;-----*/
 }
 
 .container
@@ -458,7 +460,7 @@ font-size: 48px;
 color: #27282A;
 }
 
-/*---------------------------------------------some of our works--------------------------------------------------*/
+/*----------------------------------------------some of our works--------------------------------------------------*/
 
 .works
 {
